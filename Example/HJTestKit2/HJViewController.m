@@ -7,7 +7,7 @@
 //
 
 #import "HJViewController.h"
-
+#import <HJTestKit2/HJTestKit.h>
 @interface HJViewController ()
 
 @end

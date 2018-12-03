@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		1666C6344A47E0B41020618D /* Pods-HJTestKit2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJTestKit2_Example.debug.xcconfig"; path = "Target Support Files/Pods-HJTestKit2_Example/Pods-HJTestKit2_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		23E10FFB2DC25C70E053DD7F /* HJTestKit2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HJTestKit2.podspec; path = ../HJTestKit2.podspec; sourceTree = "<group>"; };
-		451D36AD3158A93F9F648BA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		23E10FFB2DC25C70E053DD7F /* HJTestKit2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HJTestKit2.podspec; path = ../HJTestKit2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		451D36AD3158A93F9F648BA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5BF0DC2C7B5B3220BFCE385D /* Pods-HJTestKit2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJTestKit2_Example.release.xcconfig"; path = "Target Support Files/Pods-HJTestKit2_Example/Pods-HJTestKit2_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5D5DE86AA521FA56770B2725 /* Pods_HJTestKit2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJTestKit2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* HJTestKit2_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJTestKit2_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7D2E96402759A462674408C /* Pods_HJTestKit2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJTestKit2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D839F46613E29742192C0B8F /* Pods-HJTestKit2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJTestKit2_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HJTestKit2_Tests/Pods-HJTestKit2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ECEBC38895B71DF17CF939F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ECEBC38895B71DF17CF939F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				D839F46613E29742192C0B8F /* Pods-HJTestKit2_Tests.debug.xcconfig */,
 				81EEDFD14C5952902D6CDCFE /* Pods-HJTestKit2_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -501,6 +500,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HJTestKit2/HJTestKit2-Prefix.pch";
 				INFOPLIST_FILE = "HJTestKit2/HJTestKit2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +516,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HJTestKit2/HJTestKit2-Prefix.pch";
 				INFOPLIST_FILE = "HJTestKit2/HJTestKit2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
