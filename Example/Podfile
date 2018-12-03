@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HJTestKit2_Example' do
+  pod 'HJTestKit2', :path => '../'
+
+  target 'HJTestKit2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
